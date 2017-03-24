@@ -1,4 +1,4 @@
-# BT_PTUDDD_Bonus_GK
+# BT_Môn Phân tích ứng dụng di động (Bonus GK)
 Xây dựng chương trình tra cứu tỷ giá tiền tệ, có chức năng chuyển đổi giữa các loại tiền tệ
 
 # Tác giả:
