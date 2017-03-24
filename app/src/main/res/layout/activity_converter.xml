@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Spinner
+            android:layout_margin="10dp"
+            android:popupTheme="@style/Widget.AppCompat.Spinner"
+            android:layout_gravity="center"
+            android:id="@+id/spConvertType"
+            android:spinnerMode="dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp" />
+
+        <EditText
+            android:inputType="number"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/edit_input_currency"
+            android:layout_width="wrap_content"
+            android:hint="Type currency value here"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_margin="10dp"
+            android:id="@+id/cb"
+            android:layout_gravity="center"
+            android:text="Reverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/bt_convert"
+            android:layout_gravity="center"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Convert"
+            android:textColor="#FFF"
+            android:background="#2AC92D"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/txt_result"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:text="0.0"
+            android:textColor="#2AC92D"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+
+    </LinearLayout>
+</ScrollView>
