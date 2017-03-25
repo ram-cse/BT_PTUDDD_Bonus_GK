@@ -82,7 +82,7 @@ public class ConverterActivity extends AppCompatActivity {
 
 
     private void doConvert(){
-        if(currencyModels == null){
+        if(currencyModels == null || editTypeCurrency.getText().toString().trim().length() <= 0){
             return;
         }
         int index = spinner.getSelectedItemPosition();
