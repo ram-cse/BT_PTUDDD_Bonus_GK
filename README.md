@@ -3,11 +3,14 @@ Xây dựng chương trình tra cứu tỷ giá tiền tệ, có chức năng ch
 
 # Tác giả:
   Điểu Vơ Ram Sngrai - K2013 Khoa học và kỹ thuật máy tính - BKU
-
-# Screen shots
-<center><img src="./capture_screen/device-2017-03-24-175754.png"></center>
-<center><img src="./capture_screen/device-2017-03-24-175844.png"></center>
-<center><img src="./capture_screen/device-2017-03-24-175854.png"></center>
-<center><img src="./capture_screen/device-2017-03-24-175916.png"></center>
-
 # Các bạn vui lòng không copy source code này để nộp bài tập
+# ....
+# Screen shots
+# 1 
+<center><img src="./capture_screen/device-2017-03-24-175754.png"></center>
+# 2
+<center><img src="./capture_screen/device-2017-03-24-175844.png"></center>
+# 3
+<center><img src="./capture_screen/device-2017-03-24-175854.png"></center>
+# 4
+<center><img src="./capture_screen/device-2017-03-24-175916.png"></center>
