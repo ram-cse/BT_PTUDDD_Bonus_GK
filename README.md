@@ -6,11 +6,11 @@ Xây dựng chương trình tra cứu tỷ giá tiền tệ, có chức năng ch
 # Các bạn vui lòng không copy source code này để nộp bài tập
 # ....
 # Screen shots
-# 1 
+# Screen 1 
 <center><img src="./capture_screen/device-2017-03-24-175754.png"></center>
-# 2
+# Screen 2
 <center><img src="./capture_screen/device-2017-03-24-175844.png"></center>
-# 3
+# Screen 3
 <center><img src="./capture_screen/device-2017-03-24-175854.png"></center>
-# 4
+# Screen 4
 <center><img src="./capture_screen/device-2017-03-24-175916.png"></center>
