@@ -11,6 +11,10 @@ import java.util.List;
 
 public class YahooCurrencyListModel {
 
+    private boolean isOffline = false;
+    public boolean isOffline() {return isOffline;}
+    public void setOffline(boolean offline) {isOffline = offline;}
+
     @SerializedName("rate")
     private List<YahooCurrencyModel> currency;
 
