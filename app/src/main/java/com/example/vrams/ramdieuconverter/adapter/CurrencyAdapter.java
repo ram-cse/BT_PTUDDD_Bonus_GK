@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.vrams.ramdieuconverter.R;
-import com.example.vrams.ramdieuconverter.domain.models.YahooCurrencyModel;
+import com.example.vrams.ramdieuconverter.domain.currency.models.YahooCurrencyModel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,9 +45,8 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.ItemHo
     }
 
     public void setData(List<YahooCurrencyModel> models){
-        if(models == null){
-            currencyModels.clear();
-        }else {
+        currencyModels.clear();
+        if(models != null){
             currencyModels.addAll(models);
         }
         Log.d("SIZE-->", currencyModels.size()+"");

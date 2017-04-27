@@ -43,4 +43,12 @@ public class Prefs {
         return mPrefs.getString("saveCurrencyJsonData", null);
     }
 
+    public static void saveLotteryJsonData(String json){
+        mPrefs.edit().putString("saveLotteryJsonData", json).commit();
+    }
+
+    public static String getLotteryJsonData(){
+        return mPrefs.getString("saveLotteryJsonData", null);
+    }
+
 }

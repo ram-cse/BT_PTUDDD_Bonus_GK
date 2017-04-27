@@ -1,4 +1,4 @@
-package com.example.vrams.ramdieuconverter;
+package com.example.vrams.ramdieuconverter.activities.converter;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,13 +8,13 @@ import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.SpinnerAdapter;
 import android.widget.TextView;
 
+import com.example.vrams.ramdieuconverter.R;
 import com.example.vrams.ramdieuconverter.callbacks.Callback;
-import com.example.vrams.ramdieuconverter.domain.CurrencyApi;
-import com.example.vrams.ramdieuconverter.domain.models.YahooCurrencyListModel;
-import com.example.vrams.ramdieuconverter.domain.models.YahooCurrencyModel;
+import com.example.vrams.ramdieuconverter.domain.currency.CurrencyApi;
+import com.example.vrams.ramdieuconverter.domain.currency.models.YahooCurrencyListModel;
+import com.example.vrams.ramdieuconverter.domain.currency.models.YahooCurrencyModel;
 
 import java.util.List;
 

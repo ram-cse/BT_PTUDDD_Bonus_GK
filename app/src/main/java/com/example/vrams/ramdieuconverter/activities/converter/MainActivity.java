@@ -1,4 +1,4 @@
-package com.example.vrams.ramdieuconverter;
+package com.example.vrams.ramdieuconverter.activities.converter;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -10,10 +10,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.vrams.ramdieuconverter.R;
 import com.example.vrams.ramdieuconverter.adapter.CurrencyAdapter;
 import com.example.vrams.ramdieuconverter.callbacks.Callback;
-import com.example.vrams.ramdieuconverter.domain.CurrencyApi;
-import com.example.vrams.ramdieuconverter.domain.models.YahooCurrencyListModel;
+import com.example.vrams.ramdieuconverter.domain.currency.CurrencyApi;
+import com.example.vrams.ramdieuconverter.domain.currency.models.YahooCurrencyListModel;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_recycler);
         adapter = new CurrencyAdapter(this);
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.setAdapter(adapter);

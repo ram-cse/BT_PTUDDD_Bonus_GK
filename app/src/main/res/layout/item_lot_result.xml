@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/section_divider"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#CCC" />
+
+        <TextView
+            android:id="@+id/txt_lot_result_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="4dp"
+            android:text="Bình Phước 23/05/2016"
+            android:textColor="#000"
+            android:textSize="13pt"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_default"
+            android:background="#AAA" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_default"
+            android:background="@color/divider_default" />
+
+
+        <!--      <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="#AAA"
+                  android:orientation="horizontal"
+                  android:weightSum="1">
+
+                  <LinearLayout
+                      android:layout_weight="@dimen/item_lot_result_prize_title_weight"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:padding="5dp">
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center_horizontal"
+                          android:text="Giải"
+                          android:textColor="@color/txt_prize_title"
+                          android:textSize="@dimen/text_prize_title" />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_gravity="center"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="@dimen/item_lot_result_prize_result_weight"
+                      android:orientation="vertical"
+                      android:padding="5dp">
+
+                      <TextView
+                          android:id="@+id/textView"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center_horizontal"
+                          android:text="Kết quả"
+                          android:textColor="@color/txt_prize_title"
+                          android:textSize="@dimen/text_prize_title" />
+                  </LinearLayout>
+
+              </LinearLayout>
+
+              <View
+                  android:layout_width="match_parent"
+                  android:layout_height="@dimen/divider_default"
+                  android:layout_above="@+id/layout_typing_msg"
+                  android:background="@color/divider_default" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/item_lot_result_prize_title_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Giải đặc biệt"
+                    android:textColor="@color/txt_prize_title"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="@dimen/item_lot_result_prize_result_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/txt_prize_sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="N/A"
+                    android:textColor="@color/item_Lot_result_item1"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_default"
+            android:layout_above="@+id/layout_typing_msg"
+            android:background="@color/divider_default" />
+
+        <!---->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/item_lot_result_prize_title_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Giải nhất"
+                    android:textColor="@color/txt_prize_title"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="@dimen/item_lot_result_prize_result_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/txt_prize1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="N/A"
+                    android:textColor="@color/item_Lot_result_item1"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_default"
+            android:layout_above="@+id/layout_typing_msg"
+            android:background="@color/divider_default" />
+
+        <!---->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/item_lot_result_prize_title_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Giải nhì"
+                    android:textColor="@color/txt_prize_title"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="@dimen/item_lot_result_prize_result_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/txt_prize2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="N/A"
+                    android:textColor="@color/item_Lot_result_item1"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_default"
+            android:layout_above="@+id/layout_typing_msg"
+            android:background="@color/divider_default" />
+        <!---->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/item_lot_result_prize_title_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Giải ba"
+                    android:textColor="@color/txt_prize_title"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="@dimen/item_lot_result_prize_result_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/txt_prize3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="N/A"
+                    android:textColor="@color/item_Lot_result_item1"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_default"
+            android:layout_above="@+id/layout_typing_msg"
+            android:background="@color/divider_default" />
+
+        <!---->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/item_lot_result_prize_title_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Giải bốn"
+                    android:textColor="@color/txt_prize_title"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="@dimen/item_lot_result_prize_result_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/txt_prize4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="N/A"
+                    android:textColor="@color/item_Lot_result_item1"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_default"
+            android:layout_above="@+id/layout_typing_msg"
+            android:background="@color/divider_default" />
+
+        <!---->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/item_lot_result_prize_title_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Giải năm"
+                    android:textColor="@color/txt_prize_title"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="@dimen/item_lot_result_prize_result_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/txt_prize5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="N/A"
+                    android:textColor="@color/item_Lot_result_item1"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_default"
+            android:layout_above="@+id/layout_typing_msg"
+            android:background="@color/divider_default" />
+
+        <!---->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/item_lot_result_prize_title_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Giải sáu"
+                    android:textColor="@color/txt_prize_title"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="@dimen/item_lot_result_prize_result_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/txt_prize6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="N/A"
+                    android:textColor="@color/item_Lot_result_item1"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_default"
+            android:layout_above="@+id/layout_typing_msg"
+            android:background="@color/divider_default" />
+
+        <!---->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/item_lot_result_prize_title_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Giải bảy"
+                    android:textColor="@color/txt_prize_title"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="@dimen/item_lot_result_prize_result_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/txt_prize7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="N/A"
+                    android:textColor="@color/item_Lot_result_item1"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_default"
+            android:layout_above="@+id/layout_typing_msg"
+            android:background="@color/divider_default" />
+
+        <!---->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/item_lot_result_prize_title_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Giải tám"
+                    android:textColor="@color/txt_prize_title"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="@dimen/item_lot_result_prize_result_weight"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/txt_prize8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="N/A"
+                    android:textColor="@color/item_Lot_result_item1"
+                    android:textSize="@dimen/text_prize_title" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,7 +1,4 @@
-package com.example.vrams.ramdieuconverter.domain.models;
-
-import com.example.vrams.ramdieuconverter.domain.models.YahooCurrencyModel;
-import com.google.gson.annotations.SerializedName;
+package com.example.vrams.ramdieuconverter.domain.currency.models;
 
 import java.util.List;
 
@@ -15,7 +12,9 @@ public class YahooCurrencyListModel {
     public boolean isOffline() {return isOffline;}
     public void setOffline(boolean offline) {isOffline = offline;}
 
+/*
     @SerializedName("rate")
+*/
     private List<YahooCurrencyModel> currency;
 
     public List<YahooCurrencyModel> getCurrency() {

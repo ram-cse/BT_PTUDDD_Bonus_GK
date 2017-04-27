@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RamDieu Converter</string>
+    <string name="network_error">Lỗi kết nối</string>
 </resources>

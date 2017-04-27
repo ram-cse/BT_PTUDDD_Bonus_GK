@@ -1,6 +1,7 @@
-package com.example.vrams.ramdieuconverter.domain;
+/*
+package com.example.vrams.ramdieuconverter.domain.currency;
 
-import com.example.vrams.ramdieuconverter.domain.models.YahooCurrencyModel;
+import com.example.vrams.ramdieuconverter.domain.currency.models.YahooCurrencyModel;
 import com.google.gson.Gson;
 import com.google.gson.TypeAdapter;
 import com.google.gson.TypeAdapterFactory;
@@ -38,10 +39,12 @@ public class MyResultObjectAdapterFactory implements TypeAdapterFactory {
 
         @Override
         public YahooCurrencyModel read(JsonReader in) throws IOException {
-            /* 
+            */
+/*
             This is the critical part. So if the value is a string,
             Skip it (no exception) and return null.
-            */
+            *//*
+
             if (in.peek() == JsonToken.STRING) {
                 in.skipValue();
                 return null;
@@ -49,4 +52,4 @@ public class MyResultObjectAdapterFactory implements TypeAdapterFactory {
             return defaultAdapter.read(in);
         }
     }
-}
+}*/

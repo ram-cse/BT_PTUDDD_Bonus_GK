@@ -1,27 +1,23 @@
-package com.example.vrams.ramdieuconverter.domain.models;
-
-import com.google.gson.annotations.SerializedName;
-
-import java.util.Date;
+package com.example.vrams.ramdieuconverter.domain.currency.models;
 
 /**
  * Created by vrams on 3/24/2017.
  */
 
 public class YahooCurrencyModel {
-    @SerializedName("id")
+   // @SerializedName("id")
     private String id;
-    @SerializedName("Name")
+   // @SerializedName("Name")
     private String name;
-    @SerializedName("Rate")
+   // @SerializedName("Rate")
     private float rate;
-    @SerializedName("Date")
+   // @SerializedName("Date")
     private String date;
-    @SerializedName("Time")
+   // @SerializedName("Time")
     private String time;
-    @SerializedName("Ask")
+   // @SerializedName("Ask")
     private float ask;
-    @SerializedName("Bid")
+    //@SerializedName("Bid")
     private float bid;
 
     public String getId() {
