@@ -6,18 +6,21 @@ Xây dựng chương trình tra cứu tỷ giá tiền tệ, có chức năng ch
 # ....
 # Screen shots
 
+# Chức năng tra cứu thông tin xổ số
+
 1. Màn hình chính (hiện danh sách xổ số các tỉnh được lấy từ server như đề yêu cầu)
 <center><img src="./capture_screen/device-2017-04-28-022048.png"></center>
 
 2. Màn hình xem chi tiết
 <center><img src="./capture_screen/device-2017-04-28-022113.png"></center>
 
+# Chức năng tra cứu/chuyển đổi tiền tệ 
 
-# Screen 1 
+1.  Screen 1 
 <center><img src="./capture_screen/device-2017-03-24-175754.png"></center>
-# Screen 2
+2. Screen 2
 <center><img src="./capture_screen/device-2017-03-24-175844.png"></center>
-# Screen 3
+3. Screen 3
 <center><img src="./capture_screen/device-2017-03-24-175854.png"></center>
-# Screen 4
+4. Screen 4
 <center><img src="./capture_screen/device-2017-03-24-175916.png"></center>
